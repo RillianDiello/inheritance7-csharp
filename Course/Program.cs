@@ -10,13 +10,16 @@ namespace Course
     {
         static void Main(string[] args)
         {
+            //List é um tipo generico
             List<Shape> list = new List<Shape>();
 
+            // numero de imagens
             Console.Write("Enter the number of shapes: ");
             int n = int.Parse(Console.ReadLine());
 
             for (int i = 1; i <= n; i++)
             {
+                // $ indica q estou utilizando uma interpolação
                 Console.WriteLine($"Shape #{i} data:");
                 Console.Write("Rectangle or Circle (r/c)? ");
                 char ch = char.Parse(Console.ReadLine());

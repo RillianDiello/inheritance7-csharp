@@ -1,5 +1,5 @@
-﻿using System;
-using Course.Entities.Enums;
+﻿using Course.Entities.Enums;
+using System;
 
 namespace Course.Entities
 {
